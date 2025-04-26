@@ -42,6 +42,7 @@ class Television():
 
         def volume_down(self):
             if self.__status == True:
+                self.__muted = False
                 self.__volume -= 1
                 if self.__volume <= Television.MIN_VOLUME:
                     self.__volume = Television.MIN_VOLUME
