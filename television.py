@@ -16,10 +16,11 @@ class Television():
                 self.__status = True
 
         def mute(self):
-            if True == self.__muted:
-                self.__muted = False
-            elif False == self.__muted:
-                self.__muted = True
+            if True == self.__status:
+                if True == self.__muted:
+                    self.__muted = False
+                elif False == self.__muted:(
+                    self.__muted) = True
 
         def channel_up(self):
             if self.__status == True:
