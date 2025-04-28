@@ -1,5 +1,4 @@
 import pytest
-import unittest
 from television import *
 
 class Test:
